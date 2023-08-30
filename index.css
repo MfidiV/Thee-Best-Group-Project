@@ -6,7 +6,7 @@ body {
     margin: 0;
     padding: 0;
 }
-/* Styling Menu Bar */
+
 .menu-bar {
     background-color: #333;
     padding: 10px 0;
@@ -97,10 +97,10 @@ p{
   /* Next & previous buttons */
   .prev, .next {
     cursor: pointer;
-    position: absolute;
+    position:absolute;
     top: 50%;
     /* width: auto; */
-     padding: 16px; */
+    /* padding: 16px; */
     margin-top: -22px;
     color: white;
     font-weight: bold;
