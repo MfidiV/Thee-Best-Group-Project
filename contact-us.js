@@ -26,3 +26,13 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 });
+function validateEmail1(email_Address) {
+    var mailFormat =  /\S+@\S+\.\S+/;
+    if (email_Address.value.match(mailFormat)) {
+      alert("Valid address!");
+      return true;
+    } else {
+      alert("Invalid address!");
+      return false;
+    }
+  }

@@ -39,7 +39,7 @@ body {
 }
 /* stylng forms */
 form {
-    display: flgit inex;
+    /* display: flgit inex; */
     flex-direction: column;
 }
 
