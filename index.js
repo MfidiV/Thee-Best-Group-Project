@@ -49,4 +49,11 @@
       const sum = num1 + num2;
       return sum;
     }
-    
+    function myHeader() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
