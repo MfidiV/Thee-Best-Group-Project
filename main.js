@@ -170,3 +170,17 @@ document.addEventListener("DOMContentLoaded", function () {
     dueDateElementFundraising.textContent = formatTimeRemaining(timeDifferenceFundraising);
   }
 });
+//  creating a flashin button
+function toggleBlink() {
+  const button = document.getElementById('flashButton');
+  button.classList.toggle('flashing');
+}
+
+// Function to toggle blinking when the window loads
+function startBlinking() {
+  const button = document.getElementById('flashButton');
+  button.classList.add('flashing');
+}
+
+// Start blinking when the window has loaded
+window.addEventListener('load', startBlinking);
